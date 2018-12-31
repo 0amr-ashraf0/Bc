@@ -132,4 +132,4 @@ if (message.content.startsWith(adminprefix + 'setT')) {
 }
 });
 
-client.login("NTI5MjUyMDI2MDk4NjQ3MDYy.DwuIiw.PcvMUtCo4UP63nZf8O-CjPTz0ZM");
+client.login(process.env.BOT_TOKEN);
